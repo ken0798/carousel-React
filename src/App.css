@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  gap: 1rem;
+}
+
+.dots {
+  border-radius: 50%;
+  border: solid 1px black;
+  background-color: black;
+  cursor: pointer;
+  height: 5px;
+  width: 5px;
+}
+
+.dot-in {
+  background-color: white;
+  border-radius: 50%;
+  border: solid 1px black;
+  height: 5px;
+  width: 5px;
+  cursor: pointer;
+}
